@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,C;
+    
+    cout<<"jumlah bilangan = ";
+    cin>>n;
+    
+    int A[n];
+    
+    for (C=1; C<=n; C++){
+        cout<<"A["<<C<<"] = ";
+        cin>>A[C];
+    }
+    
+    return 0;
+}
